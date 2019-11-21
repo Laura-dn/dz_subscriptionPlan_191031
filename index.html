@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Subscription Plan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div class="block_1">
+            <h5>ENTERPRISE</h5>
+            <hr color="red">
+            <div class="cost">&#36;69</div>
+            <div class="perMonth">per month</div>
+            <div>10 GB disk space</div>
+            <div>100 GB monthly bandwidth</div>
+            <div>20 email accounts</div>
+            <div>Unlimited subdomens</div>
+            <button  id="b1">BUY</button>
+        </div>
+        <div class="block_2">
+            <h5>PROFESSIONAL</h5>
+            <hr color="orange">
+            <div class="cost">&#36;29</div>
+            <div class="perMonth">per month</div>
+            <div>5 GB disk space</div>
+            <div>60 GB monthly bandwidth</div>
+            <div>10 email accounts</div>
+            <div>Unlimited subdomens</div>
+            <button id="b2">BUY</button>
+        </div>
+        <div class="block_3">
+            <h5>STANDART</h5>
+            <hr color="blue">
+            <div class="cost">&#36;19</div>
+            <div class="perMonth">per month</div>
+            <div>3 GB disk space</div>
+            <div>30 GB monthly bandwidth</div>
+            <div>5 email accounts</div>
+            <div>Unlimited subdomens</div>
+            <button id="b3">BUY</button>
+        </div>
+        <div class="block_4">
+            <h5>BASIC</h5>
+            <hr color="green">
+            <div class="cost">&#36;9</div>
+            <div class="perMonth">per month</div>
+            <div>1 GB disk space</div>
+            <div>10 GB monthly bandwidth</div>
+            <div>2 email accounts</div>
+            <div>Unlimited subdomens</div>
+            <button id="b4">BUY</button>
+        </div>
+    </section>
+
+    <script>
+        let btn4 = document.querySelector("#b4"),
+            btn1 = document.querySelector("#b1");
+
+        btn4.addEventListener("click", function() {
+            alert("VERY cheap rate!");
+        });
+
+        btn1.addEventListener("click", function() {
+            alert("VERY expensive rate!");
+        });
+    </script>
+</body>
+</html>
